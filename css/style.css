@@ -65,11 +65,19 @@ p {
    color: #fff;
 }
 
+.bg-light{
+   background: #f4f4f4;
+   color: #333;
+}
+
 .bg-primary {
    background: #333;
    color: #f7c08a;
 }
 
+.clr{
+   clear: both;
+}
 
 /* Navbar */
  #navbar {
