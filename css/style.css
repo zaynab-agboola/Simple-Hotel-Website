@@ -89,6 +89,7 @@ p {
 .py-1{ padding: 10px 0; }
 .py-2{ padding: 20px 0; }
 .py-3{ padding: 30px 0; }
+.py-4{ padding: 30px 300px; }
 
 /* Navbar */
  #navbar {
@@ -147,6 +148,35 @@ p {
 #showcase .showcase-content p {
    padding-bottom: 20px;
    line-height: 1.7em;
+}
+
+/* Our Location */
+#cities .cities-content {
+   text-align: center;
+   padding: 30px 30px;
+   overflow: hidden;
+   color: #333;
+}
+
+#cities .cities-img1 {
+   float: left;
+   width: 25% ;
+   min-height: 100%;
+   margin-right: 80px;
+}
+
+#cities .cities-img2 {
+   float: left;
+   width: 25% ;
+   min-height: 100%;
+   margin-right: 80px;
+}
+
+#cities .cities-img3 {
+   float: left;
+   width: 25% ;
+   min-height: 100%;
+   margin-right: 80px;
 }
 
 /* Home Info */
@@ -208,10 +238,10 @@ p {
 
 /* Testimonials */
 
-#testimonials{
-   background: url('../img/test-bg.jpg') no-repeat center center/cover;
+#testimonials {
+   background: url('../img/tst-bg.jpg') no-repeat center center/cover;
    height: 100%;
-   padding-top: 100px;
+   padding-top: 40px;
 }
 #testimonials h2{
    color: #fff;
@@ -220,7 +250,8 @@ p {
 }
 #testimonials .testimonial{
    padding:20px;
-   margin-bottom: 20px;
+   margin-bottom: 40px;
+   border-radius: 5px;
    opacity: 0.9;
 }
 #testimonials img{
@@ -247,14 +278,11 @@ p {
    border-radius: 2px;
 }
 #contact-form .textarea{
-   padding: 30px;
+   padding: 100px;
 }
 #contact-form input:focus , #contact-form:focus .textarea {
    outline: none;
    border-color: #f7c08a;
-}
-#contact-form .l-heading {
-       margin-top: 20px;
 }
 
 /* Footer */

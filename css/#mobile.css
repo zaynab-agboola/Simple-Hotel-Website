@@ -12,6 +12,21 @@
    padding: 5px;
    border-bottom: #444 dotted 1px;
 }
+/* Our Locations */
+#cities .cities-content {
+   float:none;
+   width: 100%;
+}
+#cities .cities-img1 {
+   display: none;
+}
+#cities .cities-img2 {
+   display: none;
+}
+#cities .cities-img3 {
+   display: none;
+}
+
 /* Home Info */
 #home-info .info-img{
    display: none;
